@@ -9,6 +9,9 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { BannerComponent } from './banner/banner.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MaterilModule } from './material/material.module';
+
 
 @NgModule({
   declarations: [
@@ -16,13 +19,15 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     HeaderComponent,
     FooterComponent,
     BannerComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     ArticlesModule,
-    StaticpagesModule
+    StaticpagesModule,
+    BrowserAnimationsModule,
+    MaterilModule
   ],
   providers: [],
   bootstrap: [AppComponent]

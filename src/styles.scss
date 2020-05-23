@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.navbar{
+    display: flex;
+}
+.tab-items{
+    flex-grow: 2;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-item{
+    flex-grow: 1;
+}
+
+.login-item{
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+p{
+    text-align: center;
+}
